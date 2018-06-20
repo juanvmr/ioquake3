@@ -1,0 +1,2473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="../code" name="0">
+      <df name="asm">
+        <in>ftola.asm</in>
+        <in>ftola.c</in>
+        <in>matha.s</in>
+        <in>snapvector.asm</in>
+        <in>snapvector.c</in>
+        <in>snd_mixa.s</in>
+        <in>vm_x86_64.asm</in>
+      </df>
+      <df name="autoupdater">
+        <df name="rsa_tools">
+          <in>rsa_common.c</in>
+          <in>rsa_make_keys.c</in>
+          <in>rsa_sign.c</in>
+          <in>rsa_verify.c</in>
+        </df>
+        <in>autoupdater.c</in>
+      </df>
+      <df name="botlib">
+        <in>be_aas_bspq3.c</in>
+        <in>be_aas_cluster.c</in>
+        <in>be_aas_debug.c</in>
+        <in>be_aas_entity.c</in>
+        <in>be_aas_file.c</in>
+        <in>be_aas_main.c</in>
+        <in>be_aas_move.c</in>
+        <in>be_aas_optimize.c</in>
+        <in>be_aas_reach.c</in>
+        <in>be_aas_route.c</in>
+        <in>be_aas_routealt.c</in>
+        <in>be_aas_sample.c</in>
+        <in>be_ai_char.c</in>
+        <in>be_ai_chat.c</in>
+        <in>be_ai_gen.c</in>
+        <in>be_ai_goal.c</in>
+        <in>be_ai_move.c</in>
+        <in>be_ai_weap.c</in>
+        <in>be_ai_weight.c</in>
+        <in>be_ea.c</in>
+        <in>be_interface.c</in>
+        <in>l_crc.c</in>
+        <in>l_libvar.c</in>
+        <in>l_log.c</in>
+        <in>l_memory.c</in>
+        <in>l_precomp.c</in>
+        <in>l_script.c</in>
+        <in>l_struct.c</in>
+      </df>
+      <df name="cgame">
+        <in>cg_consolecmds.c</in>
+        <in>cg_draw.c</in>
+        <in>cg_drawtools.c</in>
+        <in>cg_effects.c</in>
+        <in>cg_ents.c</in>
+        <in>cg_event.c</in>
+        <in>cg_info.c</in>
+        <in>cg_localents.c</in>
+        <in>cg_main.c</in>
+        <in>cg_marks.c</in>
+        <in>cg_newdraw.c</in>
+        <in>cg_particles.c</in>
+        <in>cg_players.c</in>
+        <in>cg_playerstate.c</in>
+        <in>cg_predict.c</in>
+        <in>cg_scoreboard.c</in>
+        <in>cg_servercmds.c</in>
+        <in>cg_snapshot.c</in>
+        <in>cg_syscalls.asm</in>
+        <in>cg_syscalls.c</in>
+        <in>cg_view.c</in>
+        <in>cg_weapons.c</in>
+      </df>
+      <df name="client">
+        <in>cl_avi.c</in>
+        <in>cl_cgame.c</in>
+        <in>cl_cin.c</in>
+        <in>cl_console.c</in>
+        <in>cl_curl.c</in>
+        <in>cl_input.c</in>
+        <in>cl_keys.c</in>
+        <in>cl_main.c</in>
+        <in>cl_net_chan.c</in>
+        <in>cl_parse.c</in>
+        <in>cl_scrn.c</in>
+        <in>cl_ui.c</in>
+        <in>libmumblelink.c</in>
+        <in>qal.c</in>
+        <in>snd_adpcm.c</in>
+        <in>snd_altivec.c</in>
+        <in>snd_codec.c</in>
+        <in>snd_codec_ogg.c</in>
+        <in>snd_codec_opus.c</in>
+        <in>snd_codec_wav.c</in>
+        <in>snd_dma.c</in>
+        <in>snd_main.c</in>
+        <in>snd_mem.c</in>
+        <in>snd_mix.c</in>
+        <in>snd_openal.c</in>
+        <in>snd_wavelet.c</in>
+      </df>
+      <df name="game">
+        <in>ai_chat.c</in>
+        <in>ai_cmd.c</in>
+        <in>ai_dmnet.c</in>
+        <in>ai_dmq3.c</in>
+        <in>ai_main.c</in>
+        <in>ai_team.c</in>
+        <in>ai_vcmd.c</in>
+        <in>bg_lib.c</in>
+        <in>bg_misc.c</in>
+        <in>bg_pmove.c</in>
+        <in>bg_slidemove.c</in>
+        <in>g_active.c</in>
+        <in>g_arenas.c</in>
+        <in>g_bot.c</in>
+        <in>g_client.c</in>
+        <in>g_cmds.c</in>
+        <in>g_combat.c</in>
+        <in>g_items.c</in>
+        <in>g_main.c</in>
+        <in>g_mem.c</in>
+        <in>g_misc.c</in>
+        <in>g_missile.c</in>
+        <in>g_mover.c</in>
+        <in>g_rankings.c</in>
+        <in>g_session.c</in>
+        <in>g_spawn.c</in>
+        <in>g_svcmds.c</in>
+        <in>g_syscalls.asm</in>
+        <in>g_syscalls.c</in>
+        <in>g_target.c</in>
+        <in>g_team.c</in>
+        <in>g_trigger.c</in>
+        <in>g_utils.c</in>
+        <in>g_weapon.c</in>
+      </df>
+      <df name="jpeg-8c">
+        <in>jaricom.c</in>
+        <in>jcapimin.c</in>
+        <in>jcapistd.c</in>
+        <in>jcarith.c</in>
+        <in>jccoefct.c</in>
+        <in>jccolor.c</in>
+        <in>jcdctmgr.c</in>
+        <in>jchuff.c</in>
+        <in>jcinit.c</in>
+        <in>jcmainct.c</in>
+        <in>jcmarker.c</in>
+        <in>jcmaster.c</in>
+        <in>jcomapi.c</in>
+        <in>jcparam.c</in>
+        <in>jcprepct.c</in>
+        <in>jcsample.c</in>
+        <in>jctrans.c</in>
+        <in>jdapimin.c</in>
+        <in>jdapistd.c</in>
+        <in>jdarith.c</in>
+        <in>jdatadst.c</in>
+        <in>jdatasrc.c</in>
+        <in>jdcoefct.c</in>
+        <in>jdcolor.c</in>
+        <in>jddctmgr.c</in>
+        <in>jdhuff.c</in>
+        <in>jdinput.c</in>
+        <in>jdmainct.c</in>
+        <in>jdmarker.c</in>
+        <in>jdmaster.c</in>
+        <in>jdmerge.c</in>
+        <in>jdpostct.c</in>
+        <in>jdsample.c</in>
+        <in>jdtrans.c</in>
+        <in>jerror.c</in>
+        <in>jfdctflt.c</in>
+        <in>jfdctfst.c</in>
+        <in>jfdctint.c</in>
+        <in>jidctflt.c</in>
+        <in>jidctfst.c</in>
+        <in>jidctint.c</in>
+        <in>jmemmgr.c</in>
+        <in>jmemnobs.c</in>
+        <in>jquant1.c</in>
+        <in>jquant2.c</in>
+        <in>jutils.c</in>
+      </df>
+      <df name="libogg-1.3.3">
+        <df name="src">
+          <in>bitwise.c</in>
+          <in>framing.c</in>
+        </df>
+      </df>
+      <df name="libvorbis-1.3.6">
+        <df name="lib">
+          <in>analysis.c</in>
+          <in>bitrate.c</in>
+          <in>block.c</in>
+          <in>codebook.c</in>
+          <in>envelope.c</in>
+          <in>floor0.c</in>
+          <in>floor1.c</in>
+          <in>info.c</in>
+          <in>lookup.c</in>
+          <in>lpc.c</in>
+          <in>lsp.c</in>
+          <in>mapping0.c</in>
+          <in>mdct.c</in>
+          <in>psy.c</in>
+          <in>registry.c</in>
+          <in>res0.c</in>
+          <in>sharedbook.c</in>
+          <in>smallft.c</in>
+          <in>synthesis.c</in>
+          <in>vorbisenc.c</in>
+          <in>vorbisfile.c</in>
+          <in>window.c</in>
+        </df>
+      </df>
+      <df name="null">
+        <in>mac_net.c</in>
+        <in>null_client.c</in>
+        <in>null_glimp.c</in>
+        <in>null_input.c</in>
+        <in>null_main.c</in>
+        <in>null_net.c</in>
+        <in>null_snddma.c</in>
+      </df>
+      <df name="opus-1.2.1">
+        <df name="celt">
+          <df name="arm">
+            <in>arm_celt_map.c</in>
+            <in>armcpu.c</in>
+            <in>celt_ne10_fft.c</in>
+            <in>celt_ne10_mdct.c</in>
+            <in>celt_neon_intr.c</in>
+            <in>celt_pitch_xcorr_arm-gnu.S</in>
+            <in>celt_pitch_xcorr_arm.s</in>
+            <in>pitch_neon_intr.c</in>
+          </df>
+          <df name="x86">
+            <in>celt_lpc_sse.c</in>
+            <in>pitch_sse.c</in>
+            <in>pitch_sse2.c</in>
+            <in>pitch_sse4_1.c</in>
+            <in>vq_sse2.c</in>
+            <in>x86_celt_map.c</in>
+            <in>x86cpu.c</in>
+          </df>
+          <in>bands.c</in>
+          <in>celt.c</in>
+          <in>celt_decoder.c</in>
+          <in>celt_encoder.c</in>
+          <in>celt_lpc.c</in>
+          <in>cwrs.c</in>
+          <in>entcode.c</in>
+          <in>entdec.c</in>
+          <in>entenc.c</in>
+          <in>kiss_fft.c</in>
+          <in>laplace.c</in>
+          <in>mathops.c</in>
+          <in>mdct.c</in>
+          <in>modes.c</in>
+          <in>opus_custom_demo.c</in>
+          <in>pitch.c</in>
+          <in>quant_bands.c</in>
+          <in>rate.c</in>
+          <in>vq.c</in>
+        </df>
+        <df name="silk">
+          <df name="arm">
+            <in>LPC_inv_pred_gain_neon_intr.c</in>
+            <in>NSQ_del_dec_neon_intr.c</in>
+            <in>NSQ_neon.c</in>
+            <in>arm_silk_map.c</in>
+            <in>biquad_alt_neon_intr.c</in>
+          </df>
+          <df name="fixed">
+            <in>LTP_analysis_filter_FIX.c</in>
+            <in>LTP_scale_ctrl_FIX.c</in>
+            <in>apply_sine_window_FIX.c</in>
+            <in>autocorr_FIX.c</in>
+            <in>burg_modified_FIX.c</in>
+            <in>corrMatrix_FIX.c</in>
+            <in>encode_frame_FIX.c</in>
+            <in>find_LPC_FIX.c</in>
+            <in>find_LTP_FIX.c</in>
+            <in>find_pitch_lags_FIX.c</in>
+            <in>find_pred_coefs_FIX.c</in>
+            <in>k2a_FIX.c</in>
+            <in>k2a_Q16_FIX.c</in>
+            <in>noise_shape_analysis_FIX.c</in>
+            <in>pitch_analysis_core_FIX.c</in>
+            <in>process_gains_FIX.c</in>
+            <in>regularize_correlations_FIX.c</in>
+            <in>residual_energy16_FIX.c</in>
+            <in>residual_energy_FIX.c</in>
+            <in>schur64_FIX.c</in>
+            <in>schur_FIX.c</in>
+            <in>vector_ops_FIX.c</in>
+            <in>warped_autocorrelation_FIX.c</in>
+          </df>
+          <df name="float">
+            <in>LPC_analysis_filter_FLP.c</in>
+            <in>LPC_inv_pred_gain_FLP.c</in>
+            <in>LTP_analysis_filter_FLP.c</in>
+            <in>LTP_scale_ctrl_FLP.c</in>
+            <in>apply_sine_window_FLP.c</in>
+            <in>autocorrelation_FLP.c</in>
+            <in>burg_modified_FLP.c</in>
+            <in>bwexpander_FLP.c</in>
+            <in>corrMatrix_FLP.c</in>
+            <in>encode_frame_FLP.c</in>
+            <in>energy_FLP.c</in>
+            <in>find_LPC_FLP.c</in>
+            <in>find_LTP_FLP.c</in>
+            <in>find_pitch_lags_FLP.c</in>
+            <in>find_pred_coefs_FLP.c</in>
+            <in>inner_product_FLP.c</in>
+            <in>k2a_FLP.c</in>
+            <in>noise_shape_analysis_FLP.c</in>
+            <in>pitch_analysis_core_FLP.c</in>
+            <in>process_gains_FLP.c</in>
+            <in>regularize_correlations_FLP.c</in>
+            <in>residual_energy_FLP.c</in>
+            <in>scale_copy_vector_FLP.c</in>
+            <in>scale_vector_FLP.c</in>
+            <in>schur_FLP.c</in>
+            <in>sort_FLP.c</in>
+            <in>warped_autocorrelation_FLP.c</in>
+            <in>wrappers_FLP.c</in>
+          </df>
+          <df name="x86">
+            <in>NSQ_del_dec_sse.c</in>
+            <in>NSQ_sse.c</in>
+            <in>VAD_sse.c</in>
+            <in>VQ_WMat_EC_sse.c</in>
+            <in>x86_silk_map.c</in>
+          </df>
+          <in>A2NLSF.c</in>
+          <in>CNG.c</in>
+          <in>HP_variable_cutoff.c</in>
+          <in>LPC_analysis_filter.c</in>
+          <in>LPC_fit.c</in>
+          <in>LPC_inv_pred_gain.c</in>
+          <in>LP_variable_cutoff.c</in>
+          <in>NLSF2A.c</in>
+          <in>NLSF_VQ.c</in>
+          <in>NLSF_VQ_weights_laroia.c</in>
+          <in>NLSF_decode.c</in>
+          <in>NLSF_del_dec_quant.c</in>
+          <in>NLSF_encode.c</in>
+          <in>NLSF_stabilize.c</in>
+          <in>NLSF_unpack.c</in>
+          <in>NSQ.c</in>
+          <in>NSQ_del_dec.c</in>
+          <in>PLC.c</in>
+          <in>VAD.c</in>
+          <in>VQ_WMat_EC.c</in>
+          <in>ana_filt_bank_1.c</in>
+          <in>biquad_alt.c</in>
+          <in>bwexpander.c</in>
+          <in>bwexpander_32.c</in>
+          <in>check_control_input.c</in>
+          <in>code_signs.c</in>
+          <in>control_SNR.c</in>
+          <in>control_audio_bandwidth.c</in>
+          <in>control_codec.c</in>
+          <in>debug.c</in>
+          <in>dec_API.c</in>
+          <in>decode_core.c</in>
+          <in>decode_frame.c</in>
+          <in>decode_indices.c</in>
+          <in>decode_parameters.c</in>
+          <in>decode_pitch.c</in>
+          <in>decode_pulses.c</in>
+          <in>decoder_set_fs.c</in>
+          <in>enc_API.c</in>
+          <in>encode_indices.c</in>
+          <in>encode_pulses.c</in>
+          <in>gain_quant.c</in>
+          <in>init_decoder.c</in>
+          <in>init_encoder.c</in>
+          <in>inner_prod_aligned.c</in>
+          <in>interpolate.c</in>
+          <in>lin2log.c</in>
+          <in>log2lin.c</in>
+          <in>pitch_est_tables.c</in>
+          <in>process_NLSFs.c</in>
+          <in>quant_LTP_gains.c</in>
+          <in>resampler.c</in>
+          <in>resampler_down2.c</in>
+          <in>resampler_down2_3.c</in>
+          <in>resampler_private_AR2.c</in>
+          <in>resampler_private_IIR_FIR.c</in>
+          <in>resampler_private_down_FIR.c</in>
+          <in>resampler_private_up2_HQ.c</in>
+          <in>resampler_rom.c</in>
+          <in>shell_coder.c</in>
+          <in>sigm_Q15.c</in>
+          <in>sort.c</in>
+          <in>stereo_LR_to_MS.c</in>
+          <in>stereo_MS_to_LR.c</in>
+          <in>stereo_decode_pred.c</in>
+          <in>stereo_encode_pred.c</in>
+          <in>stereo_find_predictor.c</in>
+          <in>stereo_quant_pred.c</in>
+          <in>sum_sqr_shift.c</in>
+          <in>table_LSF_cos.c</in>
+          <in>tables_LTP.c</in>
+          <in>tables_NLSF_CB_NB_MB.c</in>
+          <in>tables_NLSF_CB_WB.c</in>
+          <in>tables_gain.c</in>
+          <in>tables_other.c</in>
+          <in>tables_pitch_lag.c</in>
+          <in>tables_pulses_per_block.c</in>
+        </df>
+        <df name="src">
+          <in>analysis.c</in>
+          <in>mlp.c</in>
+          <in>mlp_data.c</in>
+          <in>opus.c</in>
+          <in>opus_decoder.c</in>
+          <in>opus_encoder.c</in>
+          <in>opus_multistream.c</in>
+          <in>opus_multistream_decoder.c</in>
+          <in>opus_multistream_encoder.c</in>
+          <in>repacketizer.c</in>
+        </df>
+      </df>
+      <df name="opusfile-0.9">
+        <df name="src">
+          <in>http.c</in>
+          <in>info.c</in>
+          <in>internal.c</in>
+          <in>opusfile.c</in>
+          <in>stream.c</in>
+          <in>wincerts.c</in>
+        </df>
+      </df>
+      <df name="q3_ui">
+        <in>ui_addbots.c</in>
+        <in>ui_atoms.c</in>
+        <in>ui_cdkey.c</in>
+        <in>ui_cinematics.c</in>
+        <in>ui_confirm.c</in>
+        <in>ui_connect.c</in>
+        <in>ui_controls2.c</in>
+        <in>ui_credits.c</in>
+        <in>ui_demo2.c</in>
+        <in>ui_display.c</in>
+        <in>ui_gameinfo.c</in>
+        <in>ui_ingame.c</in>
+        <in>ui_loadconfig.c</in>
+        <in>ui_login.c</in>
+        <in>ui_main.c</in>
+        <in>ui_menu.c</in>
+        <in>ui_mfield.c</in>
+        <in>ui_mods.c</in>
+        <in>ui_network.c</in>
+        <in>ui_options.c</in>
+        <in>ui_playermodel.c</in>
+        <in>ui_players.c</in>
+        <in>ui_playersettings.c</in>
+        <in>ui_preferences.c</in>
+        <in>ui_qmenu.c</in>
+        <in>ui_rankings.c</in>
+        <in>ui_rankstatus.c</in>
+        <in>ui_removebots.c</in>
+        <in>ui_saveconfig.c</in>
+        <in>ui_serverinfo.c</in>
+        <in>ui_servers2.c</in>
+        <in>ui_setup.c</in>
+        <in>ui_signup.c</in>
+        <in>ui_sound.c</in>
+        <in>ui_sparena.c</in>
+        <in>ui_specifyleague.c</in>
+        <in>ui_specifyserver.c</in>
+        <in>ui_splevel.c</in>
+        <in>ui_sppostgame.c</in>
+        <in>ui_spreset.c</in>
+        <in>ui_spskill.c</in>
+        <in>ui_startserver.c</in>
+        <in>ui_team.c</in>
+        <in>ui_teamorders.c</in>
+        <in>ui_video.c</in>
+      </df>
+      <df name="qcommon">
+        <in>cm_load.c</in>
+        <in>cm_patch.c</in>
+        <in>cm_polylib.c</in>
+        <in>cm_test.c</in>
+        <in>cm_trace.c</in>
+        <in>cmd.c</in>
+        <in>common.c</in>
+        <in>cvar.c</in>
+        <in>files.c</in>
+        <in>huffman.c</in>
+        <in>ioapi.c</in>
+        <in>md4.c</in>
+        <in>md5.c</in>
+        <in>msg.c</in>
+        <in>net_chan.c</in>
+        <in>net_ip.c</in>
+        <in>puff.c</in>
+        <in>q_math.c</in>
+        <in>q_shared.c</in>
+        <in>unzip.c</in>
+        <in>vm.c</in>
+        <in>vm_armv7l.c</in>
+        <in>vm_interpreted.c</in>
+        <in>vm_none.c</in>
+        <in>vm_powerpc.c</in>
+        <in>vm_powerpc_asm.c</in>
+        <in>vm_sparc.c</in>
+        <in>vm_x86.c</in>
+      </df>
+      <df name="renderercommon">
+        <in>tr_font.c</in>
+        <in>tr_image_bmp.c</in>
+        <in>tr_image_jpg.c</in>
+        <in>tr_image_pcx.c</in>
+        <in>tr_image_png.c</in>
+        <in>tr_image_tga.c</in>
+        <in>tr_noise.c</in>
+      </df>
+      <df name="renderergl1">
+        <in>tr_altivec.c</in>
+        <in>tr_animation.c</in>
+        <in>tr_backend.c</in>
+        <in>tr_bsp.c</in>
+        <in>tr_cmds.c</in>
+        <in>tr_curve.c</in>
+        <in>tr_flares.c</in>
+        <in>tr_image.c</in>
+        <in>tr_init.c</in>
+        <in>tr_light.c</in>
+        <in>tr_main.c</in>
+        <in>tr_marks.c</in>
+        <in>tr_mesh.c</in>
+        <in>tr_model.c</in>
+        <in>tr_model_iqm.c</in>
+        <in>tr_scene.c</in>
+        <in>tr_shade.c</in>
+        <in>tr_shade_calc.c</in>
+        <in>tr_shader.c</in>
+        <in>tr_shadows.c</in>
+        <in>tr_sky.c</in>
+        <in>tr_subs.c</in>
+        <in>tr_surface.c</in>
+        <in>tr_world.c</in>
+      </df>
+      <df name="renderergl2">
+        <in>tr_animation.c</in>
+        <in>tr_backend.c</in>
+        <in>tr_bsp.c</in>
+        <in>tr_cmds.c</in>
+        <in>tr_curve.c</in>
+        <in>tr_dsa.c</in>
+        <in>tr_extensions.c</in>
+        <in>tr_extramath.c</in>
+        <in>tr_fbo.c</in>
+        <in>tr_flares.c</in>
+        <in>tr_glsl.c</in>
+        <in>tr_image.c</in>
+        <in>tr_image_dds.c</in>
+        <in>tr_init.c</in>
+        <in>tr_light.c</in>
+        <in>tr_main.c</in>
+        <in>tr_marks.c</in>
+        <in>tr_mesh.c</in>
+        <in>tr_model.c</in>
+        <in>tr_model_iqm.c</in>
+        <in>tr_postprocess.c</in>
+        <in>tr_scene.c</in>
+        <in>tr_shade.c</in>
+        <in>tr_shade_calc.c</in>
+        <in>tr_shader.c</in>
+        <in>tr_shadows.c</in>
+        <in>tr_sky.c</in>
+        <in>tr_subs.c</in>
+        <in>tr_surface.c</in>
+        <in>tr_vbo.c</in>
+        <in>tr_world.c</in>
+      </df>
+      <df name="sdl">
+        <in>sdl_gamma.c</in>
+        <in>sdl_glimp.c</in>
+        <in>sdl_input.c</in>
+        <in>sdl_snd.c</in>
+      </df>
+      <df name="server">
+        <in>sv_bot.c</in>
+        <in>sv_ccmds.c</in>
+        <in>sv_client.c</in>
+        <in>sv_game.c</in>
+        <in>sv_init.c</in>
+        <in>sv_main.c</in>
+        <in>sv_net_chan.c</in>
+        <in>sv_rankings.c</in>
+        <in>sv_snapshot.c</in>
+        <in>sv_world.c</in>
+      </df>
+      <df name="sys">
+        <in>con_log.c</in>
+        <in>con_passive.c</in>
+        <in>con_tty.c</in>
+        <in>con_win32.c</in>
+        <in>sys_autoupdater.c</in>
+        <in>sys_main.c</in>
+        <in>sys_osx.m</in>
+        <in>sys_unix.c</in>
+        <in>sys_win32.c</in>
+      </df>
+      <df name="tools">
+        <df name="asm">
+          <in>cmdlib.c</in>
+          <in>q3asm.c</in>
+        </df>
+        <df name="lcc">
+          <df name="cpp">
+            <in>cpp.c</in>
+            <in>eval.c</in>
+            <in>getopt.c</in>
+            <in>hideset.c</in>
+            <in>include.c</in>
+            <in>lex.c</in>
+            <in>macro.c</in>
+            <in>nlist.c</in>
+            <in>tokens.c</in>
+            <in>unix.c</in>
+          </df>
+          <df name="etc">
+            <in>bytecode.c</in>
+            <in>lcc.c</in>
+          </df>
+          <df name="lburg">
+            <in>gram.c</in>
+            <in>lburg.c</in>
+          </df>
+          <df name="src">
+            <in>alloc.c</in>
+            <in>bind.c</in>
+            <in>bytecode.c</in>
+            <in>dag.c</in>
+            <in>decl.c</in>
+            <in>enode.c</in>
+            <in>error.c</in>
+            <in>event.c</in>
+            <in>expr.c</in>
+            <in>gen.c</in>
+            <in>init.c</in>
+            <in>inits.c</in>
+            <in>input.c</in>
+            <in>lex.c</in>
+            <in>list.c</in>
+            <in>main.c</in>
+            <in>null.c</in>
+            <in>output.c</in>
+            <in>prof.c</in>
+            <in>profio.c</in>
+            <in>simp.c</in>
+            <in>stmt.c</in>
+            <in>string.c</in>
+            <in>sym.c</in>
+            <in>symbolic.c</in>
+            <in>trace.c</in>
+            <in>tree.c</in>
+            <in>types.c</in>
+          </df>
+        </df>
+      </df>
+      <df name="ui">
+        <in>ui_atoms.c</in>
+        <in>ui_gameinfo.c</in>
+        <in>ui_main.c</in>
+        <in>ui_players.c</in>
+        <in>ui_shared.c</in>
+        <in>ui_syscalls.asm</in>
+        <in>ui_syscalls.c</in>
+      </df>
+      <df name="zlib">
+        <in>adler32.c</in>
+        <in>crc32.c</in>
+        <in>inffast.c</in>
+        <in>inflate.c</in>
+        <in>inftrees.c</in>
+        <in>zutil.c</in>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Arquivos Importantes"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>../code/Makefile</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>../code</Elem>
+  </sourceRootList>
+  <projectmakefile>../code/Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>MinGW|MinGW</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+        <resolveSymbolicLinks>true</resolveSymbolicLinks>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>..</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>..</preBuildCommandWorkingDir>
+          <preBuildCommand>"C:\Program Files (x86)\GnuWin32\bin\make.exe" "D:\Mods\ioq3-master\Makefile" ARCH=x86_64</preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="../code/asm/ftola.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="../code/asm/ftola.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/asm/matha.s" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="../code/asm/snapvector.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="../code/asm/snapvector.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/asm/snd_mixa.s" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="../code/asm/vm_x86_64.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="../code/autoupdater/autoupdater.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/autoupdater/rsa_tools/rsa_common.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/autoupdater/rsa_tools/rsa_make_keys.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/autoupdater/rsa_tools/rsa_sign.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/autoupdater/rsa_tools/rsa_verify.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/botlib/be_aas_bspq3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/botlib/be_aas_cluster.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/botlib/be_aas_debug.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/botlib/be_aas_entity.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/botlib/be_aas_file.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/botlib/be_aas_main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/botlib/be_aas_move.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/botlib/be_aas_optimize.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/botlib/be_aas_reach.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/botlib/be_aas_route.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/botlib/be_aas_routealt.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/botlib/be_aas_sample.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/botlib/be_ai_char.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/botlib/be_ai_chat.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/botlib/be_ai_gen.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/botlib/be_ai_goal.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/botlib/be_ai_move.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/botlib/be_ai_weap.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/botlib/be_ai_weight.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/botlib/be_ea.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/botlib/be_interface.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/botlib/l_crc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/botlib/l_libvar.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/botlib/l_log.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/botlib/l_memory.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/botlib/l_precomp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/botlib/l_script.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/botlib/l_struct.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/cgame/cg_consolecmds.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/cgame/cg_draw.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/cgame/cg_drawtools.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/cgame/cg_effects.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/cgame/cg_ents.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/cgame/cg_event.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/cgame/cg_info.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/cgame/cg_localents.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/cgame/cg_main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/cgame/cg_marks.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/cgame/cg_newdraw.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/cgame/cg_particles.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/cgame/cg_players.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/cgame/cg_playerstate.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/cgame/cg_predict.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/cgame/cg_scoreboard.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/cgame/cg_servercmds.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/cgame/cg_snapshot.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/cgame/cg_syscalls.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="../code/cgame/cg_syscalls.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/cgame/cg_view.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/cgame/cg_weapons.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/client/cl_avi.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/client/cl_cgame.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/client/cl_cin.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/client/cl_console.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/client/cl_curl.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/client/cl_input.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/client/cl_keys.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/client/cl_main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/client/cl_net_chan.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/client/cl_parse.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/client/cl_scrn.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/client/cl_ui.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/client/libmumblelink.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/client/qal.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/client/snd_adpcm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/client/snd_altivec.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/client/snd_codec.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/client/snd_codec_ogg.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/client/snd_codec_opus.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/client/snd_codec_wav.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/client/snd_dma.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/client/snd_main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/client/snd_mem.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/client/snd_mix.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/client/snd_openal.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/client/snd_wavelet.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/game/ai_chat.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/game/ai_cmd.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/game/ai_dmnet.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/game/ai_dmq3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/game/ai_main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/game/ai_team.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/game/ai_vcmd.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/game/bg_lib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/game/bg_misc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/game/bg_pmove.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/game/bg_slidemove.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/game/g_active.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/game/g_arenas.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/game/g_bot.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/game/g_client.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/game/g_cmds.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/game/g_combat.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/game/g_items.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/game/g_main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/game/g_mem.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/game/g_misc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/game/g_missile.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/game/g_mover.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/game/g_rankings.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/game/g_session.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/game/g_spawn.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/game/g_svcmds.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/game/g_syscalls.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="../code/game/g_syscalls.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/game/g_target.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/game/g_team.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/game/g_trigger.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/game/g_utils.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/game/g_weapon.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jaricom.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jcapimin.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jcapistd.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jcarith.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jccoefct.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jccolor.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jcdctmgr.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jchuff.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jcinit.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jcmainct.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jcmarker.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jcmaster.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jcomapi.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jcparam.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jcprepct.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jcsample.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jctrans.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jdapimin.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jdapistd.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jdarith.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jdatadst.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jdatasrc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jdcoefct.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jdcolor.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jddctmgr.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jdhuff.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jdinput.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jdmainct.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jdmarker.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jdmaster.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jdmerge.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jdpostct.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jdsample.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jdtrans.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jerror.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jfdctflt.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jfdctfst.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jfdctint.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jidctflt.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jidctfst.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jidctint.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jmemmgr.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jmemnobs.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jquant1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jquant2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/jpeg-8c/jutils.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/libogg-1.3.3/src/bitwise.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/libogg-1.3.3/src/framing.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/libvorbis-1.3.6/lib/analysis.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/libvorbis-1.3.6/lib/bitrate.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/libvorbis-1.3.6/lib/block.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/libvorbis-1.3.6/lib/codebook.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/libvorbis-1.3.6/lib/envelope.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/libvorbis-1.3.6/lib/floor0.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/libvorbis-1.3.6/lib/floor1.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/libvorbis-1.3.6/lib/info.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/libvorbis-1.3.6/lib/lookup.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/libvorbis-1.3.6/lib/lpc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/libvorbis-1.3.6/lib/lsp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/libvorbis-1.3.6/lib/mapping0.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/libvorbis-1.3.6/lib/mdct.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/libvorbis-1.3.6/lib/psy.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/libvorbis-1.3.6/lib/registry.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/libvorbis-1.3.6/lib/res0.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/libvorbis-1.3.6/lib/sharedbook.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/libvorbis-1.3.6/lib/smallft.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/libvorbis-1.3.6/lib/synthesis.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/libvorbis-1.3.6/lib/vorbisenc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/libvorbis-1.3.6/lib/vorbisfile.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/libvorbis-1.3.6/lib/window.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/null/mac_net.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/null/null_client.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/null/null_glimp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/null/null_input.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/null/null_main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/null/null_net.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/null/null_snddma.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/celt/arm/arm_celt_map.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/celt/arm/armcpu.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/celt/arm/celt_ne10_fft.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/celt/arm/celt_ne10_mdct.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/celt/arm/celt_neon_intr.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/celt/arm/celt_pitch_xcorr_arm-gnu.S"
+            ex="false"
+            tool="4"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/celt/arm/celt_pitch_xcorr_arm.s"
+            ex="false"
+            tool="4"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/celt/arm/pitch_neon_intr.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/celt/bands.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/celt/celt.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/celt/celt_decoder.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/celt/celt_encoder.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/celt/celt_lpc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/celt/cwrs.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/celt/entcode.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/celt/entdec.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/celt/entenc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/celt/kiss_fft.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/celt/laplace.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/celt/mathops.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/celt/mdct.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/celt/modes.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/celt/opus_custom_demo.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/celt/pitch.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/celt/quant_bands.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/celt/rate.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/celt/vq.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/celt/x86/celt_lpc_sse.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/celt/x86/pitch_sse.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/celt/x86/pitch_sse2.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/celt/x86/pitch_sse4_1.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/celt/x86/vq_sse2.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/celt/x86/x86_celt_map.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/celt/x86/x86cpu.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/A2NLSF.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/CNG.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/HP_variable_cutoff.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/LPC_analysis_filter.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/LPC_fit.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/LPC_inv_pred_gain.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/LP_variable_cutoff.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/NLSF2A.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/NLSF_VQ.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/NLSF_VQ_weights_laroia.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/NLSF_decode.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/NLSF_del_dec_quant.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/NLSF_encode.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/NLSF_stabilize.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/NLSF_unpack.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/NSQ.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/NSQ_del_dec.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/PLC.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/VAD.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/VQ_WMat_EC.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/ana_filt_bank_1.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/arm/LPC_inv_pred_gain_neon_intr.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/arm/NSQ_del_dec_neon_intr.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/arm/NSQ_neon.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/arm/arm_silk_map.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/arm/biquad_alt_neon_intr.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/biquad_alt.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/bwexpander.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/bwexpander_32.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/check_control_input.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/code_signs.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/control_SNR.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/control_audio_bandwidth.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/control_codec.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/debug.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/dec_API.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/decode_core.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/decode_frame.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/decode_indices.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/decode_parameters.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/decode_pitch.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/decode_pulses.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/decoder_set_fs.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/enc_API.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/encode_indices.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/encode_pulses.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/fixed/LTP_analysis_filter_FIX.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/fixed/LTP_scale_ctrl_FIX.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/fixed/apply_sine_window_FIX.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/fixed/autocorr_FIX.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/fixed/burg_modified_FIX.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/fixed/corrMatrix_FIX.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/fixed/encode_frame_FIX.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/fixed/find_LPC_FIX.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/fixed/find_LTP_FIX.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/fixed/find_pitch_lags_FIX.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/fixed/find_pred_coefs_FIX.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/fixed/k2a_FIX.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/fixed/k2a_Q16_FIX.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/fixed/noise_shape_analysis_FIX.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/fixed/pitch_analysis_core_FIX.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/fixed/process_gains_FIX.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/fixed/regularize_correlations_FIX.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/fixed/residual_energy16_FIX.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/fixed/residual_energy_FIX.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/fixed/schur64_FIX.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/fixed/schur_FIX.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/fixed/vector_ops_FIX.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/fixed/warped_autocorrelation_FIX.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/float/LPC_analysis_filter_FLP.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/float/LPC_inv_pred_gain_FLP.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/float/LTP_analysis_filter_FLP.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/float/LTP_scale_ctrl_FLP.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/float/apply_sine_window_FLP.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/float/autocorrelation_FLP.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/float/burg_modified_FLP.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/float/bwexpander_FLP.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/float/corrMatrix_FLP.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/float/encode_frame_FLP.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/float/energy_FLP.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/float/find_LPC_FLP.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/float/find_LTP_FLP.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/float/find_pitch_lags_FLP.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/float/find_pred_coefs_FLP.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/float/inner_product_FLP.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/float/k2a_FLP.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/float/noise_shape_analysis_FLP.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/float/pitch_analysis_core_FLP.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/float/process_gains_FLP.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/float/regularize_correlations_FLP.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/float/residual_energy_FLP.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/float/scale_copy_vector_FLP.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/float/scale_vector_FLP.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/float/schur_FLP.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/float/sort_FLP.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/float/warped_autocorrelation_FLP.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/float/wrappers_FLP.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/gain_quant.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/init_decoder.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/init_encoder.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/inner_prod_aligned.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/interpolate.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/lin2log.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/log2lin.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/pitch_est_tables.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/process_NLSFs.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/quant_LTP_gains.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/resampler.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/resampler_down2.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/resampler_down2_3.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/resampler_private_AR2.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/resampler_private_IIR_FIR.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/resampler_private_down_FIR.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/resampler_private_up2_HQ.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/resampler_rom.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/shell_coder.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/sigm_Q15.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/sort.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/stereo_LR_to_MS.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/stereo_MS_to_LR.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/stereo_decode_pred.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/stereo_encode_pred.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/stereo_find_predictor.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/stereo_quant_pred.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/sum_sqr_shift.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/table_LSF_cos.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/tables_LTP.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/tables_NLSF_CB_NB_MB.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/tables_NLSF_CB_WB.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/tables_gain.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/tables_other.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/tables_pitch_lag.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/tables_pulses_per_block.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/x86/NSQ_del_dec_sse.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/x86/NSQ_sse.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/x86/VAD_sse.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/x86/VQ_WMat_EC_sse.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/silk/x86/x86_silk_map.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/src/analysis.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/src/mlp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/src/mlp_data.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/src/opus.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/src/opus_decoder.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/src/opus_encoder.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/src/opus_multistream.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/src/opus_multistream_decoder.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/src/opus_multistream_encoder.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opus-1.2.1/src/repacketizer.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opusfile-0.9/src/http.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/opusfile-0.9/src/info.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/opusfile-0.9/src/internal.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opusfile-0.9/src/opusfile.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/opusfile-0.9/src/stream.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/opusfile-0.9/src/wincerts.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_addbots.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_atoms.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_cdkey.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_cinematics.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_confirm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_connect.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_controls2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_credits.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_demo2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_display.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_gameinfo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_ingame.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_loadconfig.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_login.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_menu.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_mfield.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_mods.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_network.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_options.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_playermodel.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_players.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_playersettings.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_preferences.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_qmenu.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_rankings.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_rankstatus.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_removebots.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_saveconfig.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_serverinfo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_servers2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_setup.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_signup.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_sound.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_sparena.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_specifyleague.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_specifyserver.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_splevel.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_sppostgame.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_spreset.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_spskill.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_startserver.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_team.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_teamorders.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/q3_ui/ui_video.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/qcommon/cm_load.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/qcommon/cm_patch.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/qcommon/cm_polylib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/qcommon/cm_test.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/qcommon/cm_trace.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/qcommon/cmd.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/qcommon/common.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/qcommon/cvar.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/qcommon/files.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/qcommon/huffman.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/qcommon/ioapi.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/qcommon/md4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/qcommon/md5.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/qcommon/msg.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/qcommon/net_chan.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/qcommon/net_ip.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/qcommon/puff.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/qcommon/q_math.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/qcommon/q_shared.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/qcommon/unzip.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/qcommon/vm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/qcommon/vm_armv7l.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/qcommon/vm_interpreted.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/qcommon/vm_none.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/qcommon/vm_powerpc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/qcommon/vm_powerpc_asm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/qcommon/vm_sparc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/qcommon/vm_x86.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderercommon/tr_font.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderercommon/tr_image_bmp.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/renderercommon/tr_image_jpg.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/renderercommon/tr_image_pcx.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/renderercommon/tr_image_png.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/renderercommon/tr_image_tga.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/renderercommon/tr_noise.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl1/tr_altivec.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl1/tr_animation.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl1/tr_backend.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl1/tr_bsp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl1/tr_cmds.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl1/tr_curve.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl1/tr_flares.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl1/tr_image.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl1/tr_init.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl1/tr_light.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl1/tr_main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl1/tr_marks.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl1/tr_mesh.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl1/tr_model.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl1/tr_model_iqm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl1/tr_scene.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl1/tr_shade.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl1/tr_shade_calc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/renderergl1/tr_shader.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl1/tr_shadows.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl1/tr_sky.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl1/tr_subs.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl1/tr_surface.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl1/tr_world.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl2/tr_animation.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl2/tr_backend.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl2/tr_bsp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl2/tr_cmds.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl2/tr_curve.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl2/tr_dsa.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl2/tr_extensions.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/renderergl2/tr_extramath.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl2/tr_fbo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl2/tr_flares.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl2/tr_glsl.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl2/tr_image.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl2/tr_image_dds.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl2/tr_init.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl2/tr_light.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl2/tr_main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl2/tr_marks.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl2/tr_mesh.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl2/tr_model.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl2/tr_model_iqm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl2/tr_postprocess.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/renderergl2/tr_scene.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl2/tr_shade.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl2/tr_shade_calc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../code/renderergl2/tr_shader.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl2/tr_shadows.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl2/tr_sky.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl2/tr_subs.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl2/tr_surface.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl2/tr_vbo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/renderergl2/tr_world.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/sdl/sdl_gamma.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/sdl/sdl_glimp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/sdl/sdl_input.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/sdl/sdl_snd.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/server/sv_bot.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/server/sv_ccmds.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/server/sv_client.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/server/sv_game.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/server/sv_init.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/server/sv_main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/server/sv_net_chan.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/server/sv_rankings.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/server/sv_snapshot.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/server/sv_world.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/sys/con_log.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/sys/con_passive.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/sys/con_tty.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/sys/con_win32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/sys/sys_autoupdater.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/sys/sys_main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/sys/sys_osx.m" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/sys/sys_unix.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/sys/sys_win32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/asm/cmdlib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/asm/q3asm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/cpp/cpp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/cpp/eval.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/cpp/getopt.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/cpp/hideset.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/cpp/include.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/cpp/lex.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/cpp/macro.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/cpp/nlist.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/cpp/tokens.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/cpp/unix.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/etc/bytecode.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/etc/lcc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/lburg/gram.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/lburg/lburg.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/src/alloc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/src/bind.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/src/bytecode.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/src/dag.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/src/decl.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/src/enode.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/src/error.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/src/event.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/src/expr.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/src/gen.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/src/init.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/src/inits.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/src/input.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/src/lex.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/src/list.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/src/main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/src/null.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/src/output.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/src/prof.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/src/profio.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/src/simp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/src/stmt.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/src/string.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/src/sym.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/src/symbolic.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/src/trace.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/src/tree.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/tools/lcc/src/types.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/ui/ui_atoms.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/ui/ui_gameinfo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/ui/ui_main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/ui/ui_players.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/ui/ui_shared.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/ui/ui_syscalls.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="../code/ui/ui_syscalls.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/zlib/adler32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/zlib/crc32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/zlib/inffast.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/zlib/inflate.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/zlib/inftrees.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../code/zlib/zutil.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

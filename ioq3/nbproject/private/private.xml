@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <code-assistance-data xmlns="http://www.netbeans.org/ns/make-project-private/1">
+        <code-model-enabled>true</code-model-enabled>
+    </code-assistance-data>
+    <data xmlns="http://www.netbeans.org/ns/make-project-private/1">
+        <activeConfTypeElem>0</activeConfTypeElem>
+        <activeConfIndexElem>0</activeConfIndexElem>
+    </data>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/Mods/ioq3-master/code/game/bg_public.h</file>
+            <file>file:/D:/Mods/ioq3-master/code/game/g_weapon.c</file>
+            <file>file:/D:/Mods/ioq3-master/code/game/g_utils.c</file>
+            <file>file:/D:/Mods/ioq3-master/code/game/bg_pmove.c</file>
+            <file>file:/D:/Mods/ioq3-master/code/game/g_active.c</file>
+            <file>file:/D:/Mods/ioq3-master/code/game/g_combat.c</file>
+            <file>file:/D:/Mods/ioq3-master/code/game/bg_misc.c</file>
+            <file>file:/D:/Mods/ioq3-master/code/game/g_main.c</file>
+            <file>file:/D:/Mods/ioq3-master/code/game/g_missile.c</file>
+            <file>file:/D:/Mods/ioq3-master/code/qcommon/q_shared.h</file>
+        </group>
+    </open-files>
+</project-private>
